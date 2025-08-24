@@ -1,0 +1,18 @@
+
+{
+  "name": "vuln-webapp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Intentionally vulnerable Node app for Snyk & ZAP demos",
+  "main": "server.js",
+  "scripts": {
+    "start": "node app/server.js",
+    "start:dev": "nodemon app/server.js"
+  },
+  "dependencies": {
+    "express": "4.16.0",
+    "lodash": "4.17.11",
+    "marked": "0.3.6",
+    "dotenv": "6.2.0"
+  }
+}
